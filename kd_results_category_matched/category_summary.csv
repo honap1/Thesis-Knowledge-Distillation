@@ -1,0 +1,4 @@
+teacher_category,student_ts_ece_mean,student_ts_ece_std,student_ts_ece_min,baseline_ts_ece
+Attention,0.0095,0.0033,0.0033,0.0073
+Hybrid,0.0562,0.0553,0.0036,0.008
+MLP,0.0234,0.0222,0.0043,0.0098

@@ -1,0 +1,9 @@
+cache/
+cache_backup_2026-03-22/
+tableshift_cache/
+*.pt
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+tmp/
+*.pyc

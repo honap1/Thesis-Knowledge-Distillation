@@ -1,0 +1,10 @@
+teacher_name,teacher_category,matched_student,opposite_student,delta_max,T_star_matched_raw,T_star_opposite_raw,sensitivity_score_raw,T_star_matched_ts,T_star_opposite_ts,sensitivity_score_ts
+AutoInt,Attention,Attention,MLP,2,1.0,1.668,0.33399999999999996,1.0,1.668,0.33399999999999996
+DCN,Hybrid,Hybrid,MLP,1,1.0,1.0,0.0,1.0,1.0,0.0
+DeepFM,Hybrid,Hybrid,MLP,1,1.0,1.0,0.0,1.0,1.0,0.0
+DeepMLP,MLP,MLP,Attention,2,1.0,1.0,0.0,1.0,1.0,0.0
+FTTransformer,Attention,Attention,MLP,2,2.783,2.783,0.0,1.0,1.0,0.0
+RegularizedMLP,MLP,MLP,Attention,2,1.0,1.0,0.0,1.0,1.0,0.0
+StandardMLP,MLP,MLP,Attention,2,1.0,1.0,0.0,1.0,1.0,0.0
+WideAndDeep,Hybrid,Hybrid,MLP,1,1.0,1.0,0.0,4.642,5.995,1.3529999999999998
+TabTransformer,Attention,Attention,MLP,2,7.743,4.642,-1.5505,1.292,10.0,4.354
