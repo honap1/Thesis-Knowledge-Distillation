@@ -7,6 +7,7 @@
 *April 24, 2026*
 
 **[Read the full manuscript (PDF)](AMDSci_Undergraduate_Research_2025__Pacis__Reyes__Uy.pdf)**
+**[View the experiment notebook (nbviewer)](https://nbviewer.org/github/honap1/Thesis-Knowledge-Distillation/blob/main/%5BTHESIS%5D%20Knowledge%20Distilation%20.ipynb)**
 
 ---
 
