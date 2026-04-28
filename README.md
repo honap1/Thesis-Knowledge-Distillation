@@ -6,6 +6,8 @@
 *B.S. Applied Mathematics with Specialization in Data Science*
 *April 24, 2026*
 
+**[Read the full manuscript (PDF)](AMDSci_Undergraduate_Research_2025__Pacis__Reyes__Uy.pdf)**
+
 ---
 
 ## Repository Structure
