@@ -13,28 +13,28 @@
 ## Repository Structure
 
 ```
-├── [THESIS] Knowledge Distilation .ipynb   # Main experiment notebook
+├── [THESIS] Knowledge Distilation .ipynb    # Main experiment notebook
 │
 ├── outputs/
-│   ├── 2_Original_Dataset/                 # Raw Adult Income dataset (OpenML ID 1590)
-│   └── 3_Clean_Dataset/                    # Preprocessed dataset (imputed + label-encoded)
+│   ├── 2_Original_Dataset/                  # Raw Adult Income dataset (OpenML ID 1590)
+│   └── 3_Clean_Dataset/                     # Preprocessed dataset (imputed + label-encoded)
 │
 ├── kd_results_category_matched/
-│   ├── kd_all_seeds_results.csv            # All 2,700 KD runs (category-matched)
-│   ├── kd_best_configs_with_f1.csv         # Best config per teacher with F1/Recall
-│   └── category_summary.csv               # Aggregated summary
+│   ├── kd_all_seeds_results.csv             # All 2,700 KD runs (category-matched)
+│   ├── kd_best_configs_with_f1.csv          # Best config per teacher with F1/Recall
+│   └── category_summary.csv                 # Aggregated summary
 │
 ├── kd_results_mismatch/
-│   ├── kd_mismatch_all_seeds.csv           # All 8,100 KD runs (heterogeneous mismatch)
+│   ├── kd_mismatch_all_seeds.csv            # All 8,100 KD runs (heterogeneous mismatch)
 │   ├── kd_mismatch_best_configs_with_f1.csv # Best config per pair with F1/Recall
-│   ├── mismatch_summary.csv               # Aggregated summary
-│   └── sensitivity_scores.csv             # Temperature sensitivity analysis
+│   ├── mismatch_summary.csv                 # Aggregated summary
+│   └── sensitivity_scores.csv               # Temperature sensitivity analysis
 │
-├── baseline_metrics_summary.csv           # Teacher model baseline metrics
-├── table1_temperature_scaling.csv         # Temperature scaling results
-├── table2_kd_results.csv                  # Knowledge distillation results
-├── table3_baseline_vs_kd.csv             # Baseline vs. KD comparison
-└── STATISTICAL_TESTS_SUMMARY.txt         # Statistical significance tests
+├── baseline_metrics_summary.csv             # Teacher model baseline metrics
+├── table1_temperature_scaling.csv           # Temperature scaling results
+├── table2_kd_results.csv                    # Knowledge distillation results
+├── table3_baseline_vs_kd.csv                # Baseline vs. KD comparison
+└── STATISTICAL_TESTS_SUMMARY.txt            # Statistical significance tests
 ```
 
 ## Dataset
