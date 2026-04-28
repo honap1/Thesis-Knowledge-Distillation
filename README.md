@@ -35,10 +35,6 @@
 │   ├── mismatch_summary.csv                 # Aggregated summary
 │   └── sensitivity_scores.csv               # Temperature sensitivity analysis
 │
-├── baseline_metrics_summary.csv             # Teacher model baseline metrics
-├── table1_temperature_scaling.csv           # Temperature scaling results
-├── table2_kd_results.csv                    # Knowledge distillation results
-├── table3_baseline_vs_kd.csv                # Baseline vs. KD comparison
 └── STATISTICAL_TESTS_SUMMARY.txt            # Statistical significance tests
 ```
 
