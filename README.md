@@ -1,6 +1,10 @@
-# Thesis: Knowledge Distillation for Tabular Data
+# Does Neural Network Architecture Affect Distillation Temperature? An Empirical Study
 
-**Temperature Scaling and Knowledge Distillation on the Adult Income Dataset**
+**Aaron Pacis · Allyana Coleen Reyes · Stacy Alyssa Uy**
+
+*Ateneo de Manila University — Department of Mathematics*
+*B.S. Applied Mathematics with Specialization in Data Science*
+*April 24, 2026*
 
 ---
 
