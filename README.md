@@ -17,25 +17,35 @@
 ## Repository Structure
 
 ```
-├── [THESIS] Knowledge Distilation .ipynb    # Main experiment notebook
-├── ResultsGeneration.ipynb                  # Results generation and analysis notebook
+├── [THESIS] Knowledge Distilation .ipynb                      # Main experiment notebook
+├── ResultsGeneration.ipynb                                    # Results generation and analysis notebook
+├── AMDSci_Undergraduate_Research_2025__Pacis__Reyes__Uy.pdf  # Full thesis manuscript
 │
 ├── outputs/
 │   ├── 2_Original_Dataset/                  # Raw Adult Income dataset (OpenML ID 1590)
-│   └── 3_Clean_Dataset/                     # Preprocessed dataset (imputed + label-encoded)
+│   ├── 3_Clean_Dataset/                     # Preprocessed dataset (imputed + label-encoded)
+│   └── temperature_visualizations/          # Temperature scaling visualizations per model
 │
 ├── kd_results_category_matched/
 │   ├── kd_all_seeds_results.csv             # All 2,700 KD runs (category-matched)
 │   ├── kd_best_configs_with_f1.csv          # Best config per teacher with F1/Recall
-│   └── category_summary.csv                 # Aggregated summary
+│   ├── category_summary.csv                 # Aggregated summary
+│   ├── kd_category_matched_results_RERUN_REFERENCE.csv  # Rerun reference file
+│   ├── kd_full_results_RERUN_REFERENCE.pkl              # Full rerun reference (pickle)
+│   ├── seed_42/                             # Per-seed results (seed=42)
+│   ├── seed_123/                            # Per-seed results (seed=123)
+│   └── seed_456/                            # Per-seed results (seed=456)
 │
-├── kd_results_mismatch/
-│   ├── kd_mismatch_all_seeds.csv            # All 8,100 KD runs (heterogeneous mismatch)
-│   ├── kd_mismatch_best_configs_with_f1.csv # Best config per pair with F1/Recall
-│   ├── mismatch_summary.csv                 # Aggregated summary
-│   └── sensitivity_scores.csv               # Temperature sensitivity analysis
-│
-└── STATISTICAL_TESTS_SUMMARY.txt            # Statistical significance tests
+└── kd_results_mismatch/
+    ├── kd_mismatch_all_seeds.csv            # All 8,100 KD runs (heterogeneous mismatch)
+    ├── kd_mismatch_best_configs_with_f1.csv # Best config per pair with F1/Recall
+    ├── mismatch_summary.csv                 # Aggregated summary
+    ├── sensitivity_scores.csv               # Temperature sensitivity analysis
+    ├── kd_mismatch_results_RERUN_REFERENCE.csv  # Rerun reference file
+    ├── kd_mismatch_full_RERUN_REFERENCE.pkl     # Full rerun reference (pickle)
+    ├── seed_42/                             # Per-seed results (seed=42)
+    ├── seed_123/                            # Per-seed results (seed=123)
+    └── seed_456/                            # Per-seed results (seed=456)
 ```
 
 ## Dataset
