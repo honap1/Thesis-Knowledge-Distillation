@@ -1,0 +1,49 @@
+TEMPERATURE SCALING ANALYSIS SUMMARY
+======================================================================
+
+Total Models Analyzed: 9
+Total Samples per Model: 48845
+
+MODEL RANKINGS:
+----------------------------------------------------------------------
+
+By Mean Temperature (closest to 1.0):
+  1. FT-Transformer       - Mean: 0.7570
+  2. AutoInt              - Mean: 0.7376
+  3. RegularizedMLP       - Mean: 0.7243
+  4. Wide & Deep          - Mean: 0.7209
+  5. StandardMLP          - Mean: 0.7163
+  6. DeepMLP              - Mean: 0.7159
+  7. TabTransformer       - Mean: 0.7050
+  8. DeepFM               - Mean: 1.5475
+  9. DCN                  - Mean: 1.9897
+
+By Adaptiveness (Coefficient of Variation):
+  1. DeepFM               - CV: 0.2348
+  2. Wide & Deep          - CV: 0.0532
+  3. FT-Transformer       - CV: 0.0378
+  4. AutoInt              - CV: 0.0333
+  5. RegularizedMLP       - CV: 0.0294
+  6. StandardMLP          - CV: 0.0198
+  7. DeepMLP              - CV: 0.0154
+  8. TabTransformer       - CV: 0.0100
+  9. DCN                  - CV: 0.0045
+
+CATEGORY AVERAGES:
+----------------------------------------------------------------------
+
+Dense/MLP:
+  Mean: 0.7188 ± 0.0165
+  Range: [0.7000, 0.7752]
+  CV: 0.0230
+
+Attention:
+  Mean: 0.7332 ± 0.0308
+  Range: [0.7000, 0.8133]
+  CV: 0.0421
+
+Hybrid:
+  Mean: 1.4194 ± 0.5666
+  Range: [0.7000, 1.9898]
+  CV: 0.3992
+
